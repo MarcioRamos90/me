@@ -1,0 +1,24 @@
+
+   Algebra, pre-algebra e coisas basicas da matematica serão meus objetivos principais nas questões de aprendizagem de báse 
+nesse momento, acho que focar nisso me ajudará a ser uma melhor  programador e a ter mais facilidade de aprender coisas 
+complexas, como posteriormente eu quero aprender pre-calculo, calculo e por  ai vai.
+
+   Outras coisas muito importantes que provavelmente me ajudará muito, é a ter uma base de apredizado de probabilidade e estatistica,
+essa base matematica me dará um poder imenso no mundo de programação. Tanto no sentido de fazer coisas mais avançadas e criativas 
+e legais, quanto a aprender coisas  mais legais criativas e legais.
+
+   Agora em questões de tecnologicas, penso que no meu nível devo focar em conseguir fazer mais coisas por mais longo periodo de tempo,
+e avançar com essas "construções", agora  eu penso que meu "poder" de contruções de apps está em (basica + media) / 2, até acho que 
+tenho algumas questões como "avançado", mas como são pontos que estão  mais haver com a qualidade da contrução do que por do "ar", 
+acho qque tenho boas questões para evoliur nessa area ainda.
+
+  Quando falo em por  no ar, alguma aplicação, penso em coisas como:
+		- definir um objetivo e darprioridade para partes de uma maneira que me ajude a continuar o desenvolvimento.
+		- conseguir me manter constantemente na construção dessa aplicação.
+		- Conseguir usar uma tecnologia para construção dessa aplicaçãp
+		- Ter uma plataforma e saber usa-lá da maneira adequada para  continuação do desenvolvimento
+
+  Agora quando eu falo de qualidade me refiro a:
+		- Desenvolver uma aplicação com testes de uma maneira de rápido feedback para validação de negocio e correção e bugs
+		- Monitoração, alertas e tudo que ajudar ter um rastreamento se algo acontecer de maneira não prevista
+		- 
