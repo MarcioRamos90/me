@@ -11,23 +11,22 @@ para conhecer e até reconhecer alguns problemas.
 
 exemplos:
 
-1. Exerciocios sintaxe da linguagem deprogramação
-	2. Como assinar uma variável, como converter tipos
-	2. Como iterar quais são os métodos de alteração de listas e arrays
-	2. Como trabalhar com tipos estruturais e quais são suas variações
-	2. Como percorrer se necessário uma hashkey, e como verificar a existência de chave e/ou valor
-	2. Como recuperar valores de diversos tipos do terminal
-	2. Como ler e como escrever arquivos
-	2. Como fazer uma requisição HTTP
-	2. Como criar um modulo/pacote para separação de coódigo
-	2. Como receber  uma requisição
-	2. Como trabalhar com concorrecia na linguagem: Treads, channels, async e etc
-	2. Como fazer testes unitários
+1. Exerciocios sintaxe da linguagem deprogramação.
+	1. Como assinar uma variável, como converter tipos.
+	1. Como iterar quais são os métodos de alteração de listas e arrays.
+	1. Como trabalhar com tipos estruturais e quais são suas variações.
+	1. Como percorrer se necessário uma hashkey, e como verificar a existência de chave e/ou valor.
+	1. Como recuperar valores de diversos tipos do terminal.
+	1. Como ler e como escrever arquivos.
+	1. Como fazer uma requisição HTTP.
+	1. Como criar um modulo/pacote para separação de coódigo.
+	1. Como receber  uma requisição.
+	1. Como trabalhar com concorrecia na linguagem: Treads, channels, async e etc.
+	1. Como fazer testes unitários.
 
 1. Exercicios por aplicações nivel basico
-	2. Calculadora simples +, -, / e *
-	2. Todolist, max 2 niveis de profundudade
-	2. webserver crud, de produtos
-	2. Upload de arquivo para webserver
-	2. 
+	1. Calculadora simples +, -, / e *
+	1. Todolist, max 2 niveis de profundudade
+	1. webserver crud, de produtos
+	1. Upload de arquivo para webserver 
 	
