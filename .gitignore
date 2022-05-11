@@ -1,0 +1,2 @@
+/labs/rust/**/target/**
+/labs/rust/**/*.lock
