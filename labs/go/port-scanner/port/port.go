@@ -11,26 +11,31 @@ type ScanResult struct {
 	State string
 }
 
-func ScanPort(protocol, hostname string, port int) ScanResult {
-	result := ScanResult{Port: protocol + "://" + hostname + ":" + strconv.Itoa(port)}
-	address := hostname + ":" + strconv.Itoa(port)
-	conn, err := net.DialTimeout(protocol, address, 60*time.Second)
+func ScanPorts(protocols []string, hostname string) []ScanResult {
+	var results []ScanResult
+	for _, protocol := range(protocols) {
+		for port:=0; port<9999; port++ {
+			result := ScanResult{Port: protocol + "://" + hostname + ":" + strconv.Itoa(port)}
+			address := hostname + ":" + strconv.Itoa(port)
+			conn, err := net.DialTimeout(protocol, address, 60*time.Second)
 
-	if err != nil {
-		result.State = "Closed"
-		return result
+			if err != nil {
+				continue
+			}
+			defer conn.Close()
+
+			result.State = "Open"
+			results = append(results, result)
+		}
+
 	}
-	defer conn.Close()
-
-	result.State = "Open"
-	return result
+	return results
 }
 
 func InitialScan(hostname string) []ScanResult {
-	var results []ScanResult
-	for i:=0; i<9999; i++ {
-		results = append(results, ScanPort("tcp", hostname, i))
-		results = append(results, ScanPort("udp", hostname, i))
-	}
+	var protocols []string
+	protocols = append(protocols, "tcp")
+	protocols = append(protocols, "udp")
+	results := ScanPorts(protocols, hostname)
 	return results
 }
